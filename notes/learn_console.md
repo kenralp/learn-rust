@@ -7,7 +7,7 @@ fn main() {
 ```
 </br>
 
-The `stdin()` function from module `std::io` initializes input from console. `read_line(&mut input_buffer)` reads input from console until the user clicks `Enter` or `Return` (in macOS) on their keyboard and stores it in `input_buffer`.
+The `stdin()` function from module `std::io` initializes console input. `read_line(&mut input_buffer)` reads input from console until the user clicks `Enter` or `Return` (in macOS) on their keyboard and stores it in `input_buffer`:
 ```rust
 use std::io;
 
