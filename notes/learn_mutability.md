@@ -1,4 +1,5 @@
 # Mutability
+### Variables
 The `let` keyword defines an **immutable** variable; Its value cannot be **mutated** nor **moved** to a new variable, but it can be **redefined** (or **shadowed**) which creates a new immutable variable with the **same name**:
 ```rust
 let username = String::from("Kenralp");
@@ -36,22 +37,11 @@ let f64_variable = 1888.23332f64;
 
 </br>
 
+### Constants and Constant Expressions
 The `const` keyword defines a **constant** value; Its value is **immutable** and it requires **type annotation**. It can also be used for **constant expressions**:
 ```rust
 const MY_CONSTANT: i32 = 7_899_999_120;
 
 const MY_CONST_EXPR: i32 = ((12 + 24) * 2) + 100;
-```
-</br>
-
-### Naming Conventions:
-```rust
-// Variables:
-let snake_case: i32 = 1_000_000;
-let my_string = String::from("snake_case_str!");
-
-// Constants:
-const ALL_CAPS_SNAKE_CASE: i32 = 8_000_100;
-const SCREEN_WIDTH: i32 = 1600;
 ```
 </br>
