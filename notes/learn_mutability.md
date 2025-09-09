@@ -44,7 +44,7 @@ const MY_CONST_EXPR: i32 = ((12 + 24) * 2) + 100;
 ```
 </br>
 
-### NAMING CONVENTIONS:
+### Naming Conventions:
 ```rust
 // Variables:
 let snake_case: i32 = 1_000_000;
