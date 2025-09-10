@@ -1,6 +1,6 @@
 # Mutability
 ## Variables
-Variables are **immutable** by default.
+Variables are **immutable** by default. **Type annotation** is optional.
 ```rust
 let immutable_var = String::from("Kenralp");
 
