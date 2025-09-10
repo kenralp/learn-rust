@@ -1,5 +1,5 @@
-mod learn_data_types;
+mod learn_console;
 
 fn main() {
-    learn_data_types::entry();
+    learn_console::entry();
 }
