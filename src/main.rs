@@ -1,5 +1,5 @@
-mod learn_console;
+mod learn_ownership;
 
 fn main() {
-    learn_console::entry();
+    learn_ownership::entry();
 }
