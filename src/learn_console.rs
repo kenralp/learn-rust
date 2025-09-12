@@ -1,7 +1,6 @@
 use std::io;
 
 pub fn entry() {
-    println!("[from: learn_console]");
     println!("Enter your input:");
 
     let mut input_buffer = String::new();

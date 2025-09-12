@@ -1,5 +1,5 @@
-mod learn_ownership;
+mod learn_structs;
 
 fn main() {
-    learn_ownership::entry();
+    learn_structs::entry();
 }
